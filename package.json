@@ -1,0 +1,49 @@
+{
+  "name": "chat-room",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "renhou",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "js:check": "eslint",
+    "js:fix": "eslint --fix",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "fix:all": "run-s js:fix format:fix",
+    "check:all": "run-s js:check format:check"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "firebase": "^9.17.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "react-easy-crop": "^4.7.4",
+    "react-router-dom": "^6.9.0",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^4.2.0",
+    "tailwindcss": "^3.2.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
